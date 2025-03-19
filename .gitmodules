@@ -1,0 +1,3 @@
+[submodule "spring-rest-api"]
+	path = spring-rest-api
+	url = https://github.com/DouglasDans/book-review-api.git
