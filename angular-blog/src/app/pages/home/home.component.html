@@ -1,0 +1,22 @@
+<main class="main-container">
+
+  <app-banner
+  titulo="PlayStation 5 Bate vendas do PS4"
+  descricao="Descubra como o PlayStation 5 não só superou o PS4 em vendas, mas também se consolidou como a nova referência em inovação e performance no universo dos games, oferecendo experiências imersivas e tecnologia de ponta para os jogadores."
+  imageLink="https://sm.ign.com/t/ign_br/photo/default/ps5-pro-full-blog-1725981773141_9nh7.1200.jpg"
+  />
+
+  <div class="posts-container">
+    <h3>Mais Postagens</h3>
+
+    <div class="posts-wrapper">
+      <app-post-card
+        *ngFor="let posts of postList"
+        [id]="posts.id"
+        [titulo]="posts.title"
+        [descricao]="posts.description"
+        [imgUrl]="posts.photoCover"
+      />
+    </div>
+  </div>
+</main>
