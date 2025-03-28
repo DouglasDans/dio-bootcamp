@@ -23,6 +23,11 @@ public class SheduleService implements IScheduleService {
     }
 
     @Override
+    public List<Schedule> findInMonth(final OffsetDateTime startAt, final OffsetDateTime endAt) {
+        return scheduleRepository.findByStartAtGreaterThanEqualAndEndAtLessThanEqualOrderByStartAtAscEndAtAsc(startAt, endAt);
+    }
+
+    @Override
     public Schedule save(Schedule entity) {
         return scheduleRepository.save(entity);
     }

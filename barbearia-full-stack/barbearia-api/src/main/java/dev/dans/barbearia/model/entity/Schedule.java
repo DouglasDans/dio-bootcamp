@@ -2,11 +2,12 @@ package dev.dans.barbearia.model.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.ToString;
 
 import java.time.OffsetDateTime;
 
-@Data
 @Table(name = "tb_schedule")
 @Entity
 public class Schedule {
@@ -20,8 +21,27 @@ public class Schedule {
     @Column(nullable = false, name = "end_at")
     private OffsetDateTime endAt;
 
-    @ToString.Exclude
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private User user;
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public OffsetDateTime getStartAt() {
+        return startAt;
+    }
+
+    public void setStartAt(OffsetDateTime startAt) {
+        this.startAt = startAt;
+    }
+
+    public OffsetDateTime getEndAt() {
+        return endAt;
+    }
+
+    public void setEndAt(OffsetDateTime endAt) {
+        this.endAt = endAt;
+    }
 }

@@ -7,6 +7,8 @@ import dev.dans.barbearia.model.repository.IUserRepository;
 import dev.dans.barbearia.service.IUserService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class UserService implements IUserService {
 
@@ -14,6 +16,11 @@ public class UserService implements IUserService {
 
     public UserService(IUserRepository IUserRepository) {
         this.userRepository = IUserRepository;
+    }
+
+    @Override
+    public List<User> findAll() {
+        return userRepository.findAll();
     }
 
     @Override
@@ -33,9 +40,6 @@ public class UserService implements IUserService {
 
     @Override
     public User update(User entity) {
-        verifyIfInUseEmail(entity.getEmail());
-        verifyIfInUsePhone(entity.getPhone());
-
         return userRepository.save(entity);
     }
 
