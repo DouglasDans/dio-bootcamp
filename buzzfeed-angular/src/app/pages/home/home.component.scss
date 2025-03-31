@@ -1,0 +1,26 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  .navbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(21, 91, 221);
+    justify-content: center;
+    font-weight: 800;
+    color: white;
+  }
+
+  main {
+    height: 100%;
+  }
+
+}

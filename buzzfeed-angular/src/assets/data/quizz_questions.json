@@ -1,0 +1,89 @@
+{
+  "title": "Qual console combina mais com você?",
+  "questions": [
+    {
+      "id": 1,
+      "question": "O que você valoriza mais em uma experiência de jogo?",
+      "options": [
+        { "id": 1, "name": "Histórias emocionantes e imersivas", "alias": "A" },
+        { "id": 2, "name": "Competitividade e interação social", "alias": "B" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Como você prefere passar seu tempo livre?",
+      "options": [
+        { "id": 1, "name": "Explorando mundos fictícios", "alias": "A" },
+        { "id": 2, "name": "Jogando com amigos online", "alias": "B" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Qual ambiente de jogo te atrai mais?",
+      "options": [
+        { "id": 1, "name": "Cenários detalhados e cinematográficos", "alias": "A" },
+        { "id": 2, "name": "Ambientes dinâmicos e realistas", "alias": "B" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Se você pudesse escolher, qual seria sua prioridade?",
+      "options": [
+        { "id": 1, "name": "Jogos exclusivos e inovadores", "alias": "A" },
+        { "id": 2, "name": "Uma biblioteca ampla e acessível", "alias": "B" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Como você descreveria sua abordagem para jogos?",
+      "options": [
+        { "id": 1, "name": "Prefiro experiências únicas e marcantes", "alias": "A" },
+        { "id": 2, "name": "Gosto de variedade e flexibilidade", "alias": "B" }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "O que te motiva a comprar um console?",
+      "options": [
+        { "id": 1, "name": "A qualidade dos jogos disponíveis", "alias": "A" },
+        { "id": 2, "name": "Os serviços e benefícios oferecidos", "alias": "B" }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Qual tipo de inovação tecnológica te atrai mais?",
+      "options": [
+        { "id": 1, "name": "Novas formas de imersão", "alias": "A" },
+        { "id": 2, "name": "Melhorias em conectividade e desempenho", "alias": "B" }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Como você escolhe seus jogos?",
+      "options": [
+        { "id": 1, "name": "Baseado em recomendações e análises", "alias": "A" },
+        { "id": 2, "name": "Baseado no que está popular no momento", "alias": "B" }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "O que te faz sentir mais realizado ao jogar?",
+      "options": [
+        { "id": 1, "name": "Concluir uma história épica", "alias": "A" },
+        { "id": 2, "name": "Vencer desafios competitivos", "alias": "B" }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Se você pudesse descrever sua experiência ideal de jogo, qual seria?",
+      "options": [
+        { "id": 1, "name": "Uma jornada inesquecível", "alias": "A" },
+        { "id": 2, "name": "Diversão sem limites", "alias": "B" }
+      ]
+    }
+  ],
+  "results": {
+    "A": "Você provavelmente prefere Playstation! Suas escolhas indicam que você valoriza experiências imersivas e exclusivas.",
+    "B": "Você provavelmente prefere Xbox! Suas escolhas mostram que você aprecia conectividade, variedade e serviços acessíveis."
+  }
+}
