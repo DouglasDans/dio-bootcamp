@@ -10,9 +10,9 @@
 2. Crie uma Storage Account
 3. Suba os arquivos do zip do Microsoft Learn em um container
 4. Use o Azure AI Search para fazer a pesquisa dos dados, mas antes configure:
-  - A conexão com o data source
-  - Habilitar o OCR e outros recursos de pesquisa do Azure
-  - Crie um Index para realizar a pesquisa
+    - A conexão com o data source
+    - Habilitar o OCR e outros recursos de pesquisa do Azure
+    - Crie um Index para realizar a pesquisa
 5. Volte para o recurso Search AI criado e vá em explorador de pesquisa e faça suas pesquisas.
 
 
