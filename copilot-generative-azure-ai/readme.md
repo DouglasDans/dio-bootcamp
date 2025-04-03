@@ -4,7 +4,7 @@ Com base no que foi apresentado no enunciado do projeto eu realizei o seguinte p
 - Inputs de imagem no Copilot
 - Outputs do que ele reconheceu em cada uma dessas imagens e suas descrições
 
-### Insignts Objtidos
+### Insigts Obtidos
 
 - Achei interessante principalmente na primeira foto, onde o Copilot borrou a cara do Michael Jackson, borrar a cara das pessoas é algo que não acontece no ChatGPT por exemplo, ainda assim foi algo inesperado para mim. Além disso, ele reconehceu pela imagem elementos de estilo artístico dos anos 80, o que condiz bem com a imagem.
 
